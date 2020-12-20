@@ -1,0 +1,320 @@
+
+/* #4e16c9  #f35909;    #313131; ;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #f35909;
+    --secondary-color:#4e16c9;
+    --off-white: #e2e2e2;
+    --dark-gray:#313131; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--secondary-color);
+    margin: px;
+}
+
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/** spaces **/
+
+.margin-md {
+    margin: 1rem;
+}
+
+
+/** navigation displays the upper part of the site**/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 2.3rem;
+    padding: 1rem 1rem 1rem 0rem;
+    margin: 1rem 1rem 1rem 1rem;
+    height: 100px;
+    
+
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.3rem;
+    color:white;
+    
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    text-decoration: none;
+}
+
+.navigation .link {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    
+}
+
+/** header which shows .svg image **/
+
+.hero {
+    padding: 20rem;
+    padding-top: 5rem;
+
+}
+.heading-one {
+    text-align: center;
+    padding-bottom: 1rem;
+    color:black;
+    
+}
+
+.hero .hero-img {
+    max-height: 90%;
+    height:300px;
+    display: block;
+    margin: auto;
+
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color:var(--primary-color);
+}
+
+
+
+.hero .hero-heading .heading-inverted {
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+/** lists ( to display home etc on the nav **/
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    font-weight:bold;
+    text-decoration: none;
+
+}
+/*section to display projects etc*/
+section {
+    text-align: center;
+    padding-top: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius:1.2rem;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+
+.section h1 {
+    text-align: center;
+text-decoration: none;
+border-radius:1rem;
+color:var(--secondary-color);
+
+
+}
+
+.dk {
+   
+    background-color: var(--primary-color);
+
+    color: rgb(255, 255, 255);
+   height:x;
+
+    text-align: center;
+    padding-top: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius:1.2rem;
+   
+    font-weight: bold;
+}
+
+/* list used to display links on the containers*/
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: black;
+    padding: 1rem 1rem;
+}
+
+.link-primary {
+    text-decoration: none;
+    background-color:var(--secondary-color);
+    color:white;
+    border-radius: 1.2rem;
+     display: block;
+    max-width: 140px;
+    margin: auto;
+    padding:1rem 1rem;
+}
+
+.link-secondary {
+    color:var(--secondary-color);
+    border-radius: 1.2rem;
+    text-decoration: none;
+    display: block;
+    max-width: 140px;
+    margin: auto;
+    background-color: white;
+    padding: 1rem 1rem;
+    
+}
+
+
+/* foooter to display the bottom part of website*/
+
+footer {
+    background-color:black;
+    padding: 3rem 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 1.2rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+    padding-bottom: 6rem;
+}
+
+
+/*projects page*/
+
+.showcase-list{
+
+    text-align: center;
+    padding-top: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius:1.2rem;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+.showcase-list1{
+
+    text-align: center;
+    padding-top: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius:1.2rem;
+    background-color:var(--primary-color);
+    color:white;
+    font-weight: bold;
+}
+
+/* hero heading on projects page*/
+
+.hero-heading-1 {
+    text-align: center;
+    padding-top: 12rem;
+    color:var(--primary-color);
+
+
+}
+.heading-inverted-1 {
+
+    color:white;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 12rem;
+}
+
+
+/*hero heading for blogs*/
+.hero-heading-2 {
+    text-align: center;
+    padding-top: 12rem;
+    color:var(--primary-color);
+
+
+}
+.heading-inverted-2 {
+
+    color:white;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 15rem;
+}
+
+
+.showcase-list2 {
+
+    text-align: center;
+    padding-top: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius:1.2rem;
+    background-color: var(--off-white);
+    color:var(--primary-color);
+    font-weight: bold;
+   
+} 
+.showcase-list3 {
+
+    text-align: left;
+    padding-top: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius:1.2rem;
+    background-color: var(--off-white);
+    color:rgb(0, 0, 0);
+    
+   
+} 
+
+.link-primary-1 {
+    text-decoration: none;
+    background-color:black;
+    color:white;
+    border-radius: 1.2rem;
+     display: block;
+    max-width: 140px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 1rem;
+    
+}
